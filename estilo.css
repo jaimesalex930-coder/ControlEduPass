@@ -1,0 +1,42 @@
+body {
+    background-image: url(img/fondo2.jpeg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    }
+    .logo {
+      height: 100px;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .logo:hover {
+      transform: scale(1.2);
+    }
+    .transparent-card {
+      background-color: rgba(255, 255, 255, 0.9);
+      color: #000;
+      border-radius: 0.5rem;
+    }
+    .centered-card {
+      max-width: 500px;
+      margin: auto;
+    }
+    .nav-link .bi {
+      margin-right: 6px;
+      font-size: 1.2em;
+      vertical-align: middle;
+    }
+    
+    .transparent-card input,
+    .transparent-card select,
+    .transparent-card textarea {
+      background-color: #f8f9fa;
+      color: #000;
+    }
+    
+    .btn-primary, .btn-warning, .btn-danger, .btn-success {
+      font-weight: 600;
+    }
